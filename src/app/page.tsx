@@ -26,13 +26,15 @@ export default function Home() {
             <Github /> Epikle
           </Link>
         </div>
-        <Image
-          src="/unnamed.jpg"
-          alt="oktaani"
-          width={512}
-          height={512}
-          className="mx-auto aspect-square w-[350px] rounded-2xl border-4 border-indigo-600 shadow-xl"
-        />
+        <div className="mx-auto aspect-square w-full overflow-hidden rounded-full ring-[16px] ring-blue-900 md:w-[350px]">
+          <Image
+            src="/unnamed.png"
+            alt="oktaani"
+            width={512}
+            height={512}
+            className="scale-125"
+          />
+        </div>
       </header>
       <main className="grid gap-12 md:gap-24">
         <div className="bg-red-500 py-12 shadow-lg md:px-12 md:py-24">
