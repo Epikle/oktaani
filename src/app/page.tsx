@@ -14,7 +14,9 @@ export default function Home() {
             A collection of small{" "}
             <span className="underline decoration-cyan-500">web apps</span>{" "}
             created by an{" "}
-            <span className="underline decoration-red-600">enthusiastic</span>{" "}
+            <span className="underline decoration-red-600 decoration-wavy decoration-2 underline-offset-4">
+              enthusiastic
+            </span>{" "}
             hobby developer
           </div>
           <Link
@@ -57,7 +59,9 @@ export default function Home() {
                 </Link>
               </h1>
               <div className="text-center text-2xl text-amber-50">
-                <span className="underline decoration-cyan-500">fault</span>{" "}
+                <span className="underline decoration-cyan-500 underline-offset-4">
+                  fault
+                </span>{" "}
                 codes.
               </div>
             </div>
@@ -74,12 +78,18 @@ export default function Home() {
                   target="_blank"
                   prefetch={false}
                 >
-                  <span className="text-blue-900">oktaani</span>TODO
+                  <span className="text-blue-900 underline-offset-4">
+                    oktaani
+                  </span>
+                  TODO
                 </Link>
               </h1>
               <div className="text-center text-2xl text-amber-50">
                 yet another{" "}
-                <span className="underline decoration-red-500">TODO</span> app.
+                <span className="underline decoration-red-500 underline-offset-4">
+                  TODO
+                </span>{" "}
+                app.
               </div>
             </div>
 
@@ -110,12 +120,16 @@ export default function Home() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  oktaani<span className="text-blue-900">GAMES</span>
+                  oktaani
+                  <span className="text-blue-900">GAMES</span>
                 </Link>
               </h1>
               <div className="text-center text-2xl text-amber-50">
                 have some{" "}
-                <span className="underline decoration-violet-500">FUN</span>.
+                <span className="underline decoration-violet-500  underline-offset-4">
+                  FUN
+                </span>
+                .
               </div>
             </div>
           </div>
@@ -130,11 +144,15 @@ export default function Home() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <span className="text-blue-900">oktaani</span>API
+                  <span className="text-blue-900">oktaani</span>
+                  API
                 </Link>
               </h1>
               <div className="text-center text-2xl text-amber-50">
-                <span className="underline decoration-red-500">REST</span> API.
+                <span className="underline decoration-red-500 underline-offset-4">
+                  REST
+                </span>{" "}
+                API.
               </div>
             </div>
 
