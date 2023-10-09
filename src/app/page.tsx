@@ -109,9 +109,8 @@ export default function Home() {
                 </Link>
               </h1>
               <div className="text-center text-2xl text-amber-50">
-                yet another{" "}
-                <span className="underline decoration-violet-500">TODO</span>{" "}
-                app.
+                have some{" "}
+                <span className="underline decoration-violet-500">FUN</span>.
               </div>
             </div>
           </div>
