@@ -29,9 +29,9 @@ export default function Home() {
         <Image
           src="/unnamed.jpg"
           alt="oktaani"
-          width={350}
-          height={350}
-          className="mx-auto rounded-2xl border-4 border-indigo-600 shadow-xl"
+          width={512}
+          height={512}
+          className="mx-auto aspect-square w-[350px] rounded-2xl border-4 border-indigo-600 shadow-xl"
         />
       </header>
       <main className="grid gap-12 md:gap-24">
