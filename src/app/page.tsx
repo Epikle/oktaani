@@ -39,8 +39,8 @@ export default function Home() {
           <Image
             src="/unnamed.png"
             alt="oktaani"
-            width={512}
-            height={512}
+            width={500}
+            height={500}
             className="scale-125 transition-all hover:scale-105"
           />
         </div>
@@ -179,7 +179,11 @@ export default function Home() {
       </main>
 
       <footer className="mt-12 grid justify-items-center gap-2 bg-violet-950 py-6 shadow-lg md:mt-24 md:py-12">
-        <Link href="#header" className="transition-all hover:scale-125">
+        <Link
+          href="#header"
+          className="transition-all hover:scale-125"
+          aria-label="Go back to start"
+        >
           <ArrowUp />
         </Link>
         <div className="flex items-center justify-center gap-2">
