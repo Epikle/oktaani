@@ -20,6 +20,8 @@ export default function Home() {
           <Link
             href="https://github.com/Epikle"
             className="mx-auto mt-8 flex gap-2 rounded-md bg-blue-900 px-12 py-4 shadow-md outline-slate-800 transition-all hover:bg-lime-600"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <Github /> Epikle
           </Link>
@@ -68,6 +70,7 @@ export default function Home() {
                   href="https://oktaani.com/todo/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  prefetch={false}
                 >
                   <span className="text-blue-900">oktaani</span>TODO
                 </Link>
