@@ -7,7 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "oktaani",
-  description: "oktaani",
+  description:
+    "This is a portfolio page showcasing all of my oktaani-branded web applications.",
+  metadataBase: new URL("https://oktaani.com"),
 };
 
 export default function RootLayout({
