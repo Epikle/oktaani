@@ -37,6 +37,7 @@ export default function Home() {
         </div>
         <div className="mx-auto aspect-square w-full overflow-hidden rounded-full ring-[16px] ring-blue-900 md:w-[320px]">
           <Image
+            priority
             src="/unnamed.png"
             alt="oktaani"
             width={500}
@@ -58,7 +59,7 @@ export default function Home() {
             <div>
               <h2 className="relative mx-auto max-w-fit text-4xl font-extrabold after:absolute after:bottom-0 after:left-0 after:h-1 after:w-0 after:bg-cyan-500 after:transition-all after:duration-300 hover:after:w-full md:text-5xl lg:text-7xl">
                 <Link
-                  href="https://oktaani-dtc.vercel.app/"
+                  href="https://dtc.oktaani.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -81,7 +82,7 @@ export default function Home() {
             <div>
               <h2 className="relative mx-auto max-w-fit text-4xl font-extrabold after:absolute after:bottom-0 after:left-0 after:h-1 after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full md:text-4xl lg:text-6xl xl:text-7xl">
                 <Link
-                  href="https://oktaani.com/todo/"
+                  href="https://todo.oktaani.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   prefetch={false}
@@ -125,7 +126,7 @@ export default function Home() {
             <div>
               <h2 className="relative mx-auto max-w-fit text-4xl font-extrabold after:absolute after:bottom-0 after:left-0 after:h-1 after:w-0 after:bg-violet-500 after:transition-all after:duration-300 hover:after:w-full md:text-4xl lg:text-6xl xl:text-7xl">
                 <Link
-                  href="https://oktaani-game-2.vercel.app/"
+                  href="https://game.oktaani.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -188,7 +189,7 @@ export default function Home() {
         </Link>
         <div className="flex items-center justify-center gap-2">
           <span className="underline decoration-lime-600 decoration-2 underline-offset-4">
-            2023
+            2024
           </span>{" "}
           <span className="text-4xl font-semibold text-red-500">&copy;</span>{" "}
           <span className="font-extrabold">oktaani.com</span>
