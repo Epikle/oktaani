@@ -11,9 +11,17 @@ export default function Home() {
       >
         <div className="grid gap-2">
           <div className="background-animate h-4 border-b-2 border-blue-900 bg-gradient-to-r from-red-500 via-orange-500  to-violet-950" />
-          <h1 className="text-center text-6xl font-extrabold text-blue-900 md:text-6xl lg:text-8xl">
+          <h1 className="sr-only text-center text-6xl font-extrabold text-blue-900 md:text-6xl lg:text-8xl">
             OKTAANI
           </h1>
+          <Image
+            priority
+            src="/oktaani_logo_text.svg"
+            alt=""
+            width={448}
+            height={168}
+            aria-hidden
+          />
           <div className="max-w-md text-center text-xl text-amber-50 md:text-2xl">
             A collection of small{" "}
             <span className="underline decoration-cyan-500">web apps</span>{" "}
