@@ -10,7 +10,7 @@ export default function Home() {
         className="mx-auto grid max-w-7xl items-center justify-items-center gap-10 p-10 md:grid-cols-2 md:p-24"
       >
         <div className="grid gap-2">
-          <div className="background-animate h-4 border-b-2 border-blue-900 bg-gradient-to-r from-red-500 via-orange-500  to-violet-950" />
+          <div className="background-animate h-4 border-b-2 border-blue-900 bg-gradient-to-r from-red-500 via-orange-500 to-violet-950" />
           <h1 className="sr-only text-center text-6xl font-extrabold text-blue-900 md:text-6xl lg:text-8xl">
             OKTAANI
           </h1>
@@ -145,44 +145,12 @@ export default function Home() {
               </h2>
               <div className="text-center text-2xl text-amber-50">
                 have some{" "}
-                <span className="underline decoration-violet-500  decoration-wavy decoration-2 underline-offset-4">
+                <span className="underline decoration-violet-500 decoration-wavy decoration-2 underline-offset-4">
                   FUN
                 </span>
                 .
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="bg-orange-500 py-12 shadow-lg md:px-12 md:py-24">
-          <div className="mx-auto grid max-w-7xl items-center justify-items-center gap-8 md:grid-cols-2">
-            <div>
-              <h2 className="relative mx-auto max-w-fit text-4xl font-extrabold after:absolute after:bottom-0 after:left-0 after:h-1 after:w-0 after:bg-red-500 after:transition-all after:duration-300 hover:after:w-full md:text-5xl lg:text-7xl">
-                <Link
-                  href="https://github.com/Epikle/oktaani-api"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span className="text-blue-900">oktaani</span>
-                  API
-                </Link>
-                <ExternalLink className="absolute -right-6 -top-2 text-blue-900" />
-              </h2>
-              <div className="text-center text-2xl text-amber-50">
-                <span className="underline decoration-red-500 underline-offset-4">
-                  REST
-                </span>{" "}
-                API.
-              </div>
-            </div>
-
-            <Image
-              src="/oktaaniapi-preview.webp"
-              alt="oktaaniAPI"
-              width={960}
-              height={640}
-              className="aspect-video w-full object-cover object-top shadow-xl transition-all md:h-72 md:rounded-2xl md:hover:scale-105"
-            />
           </div>
         </div>
       </main>
